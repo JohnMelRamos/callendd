@@ -1,0 +1,82 @@
+*{
+    font-size: 30px;
+    font-family: Arial,sans-serif;
+}
+body{
+    background:url("bg.gif");
+    scroll-behavior: smooth;
+}
+.tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+    border-radius: 10px;
+    position:absolute;
+    padding: 40px;
+    box-shadow: 5px 5px  10px rgba(0, 0, 0, 6);
+}
+.asd{
+    padding: 500px;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    background: linear-gradient(90deg,#f48c06,yellow);
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+
+th{
+    padding: 10px;
+    text-align: center;
+    background: orange;
+    border-radius: 10px;
+    width: 4em;
+
+    
+}
+.th{
+    padding: 10px;
+    text-align: center;
+    background: #f48c06;
+    border-radius: 10px;
+    width: 4em;
+
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 4em;
+    transition:all 0.5s ease-in 0s;
+}
+td:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    color:white;
+}
+
+
+
+.prevd{
+    color:gray;
+}
+.event{
+    padding-right: 550px;
+}
+.lis{
+    font-size: 20px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 15px;
+
+}
